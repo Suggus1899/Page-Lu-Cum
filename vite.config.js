@@ -4,11 +4,11 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   server: {
-    allowedHosts: ['regalo-sussy.onrender.com'],
+    allowedHosts: ['regalo-sussy.onrender.com', 'page-lu-cum.onrender.com'],
     host: '0.0.0.0'
   },
   preview: {
-    allowedHosts: ['regalo-sussy.onrender.com'],
+    allowedHosts: ['regalo-sussy.onrender.com', 'page-lu-cum.onrender.com'],
     host: '0.0.0.0'
   }
 })
